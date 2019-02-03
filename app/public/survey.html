@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <title>Friend Finder Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-12 text-center justify-content-center">
+                    <div class='card-panel left-align white'>
+                        <h1>Your info</h1>
+                        <br>
+                        <input id="name" type="text" class="validate" required>
+                        <label class='active' for="name">Name (required)</label>
+                        <input id="photo" type="text" class="validate" required>
+                        <label class='active' for="name">Link to Photo Image (required)</label>
+                        </br>
+                        </br>
+                        <h1>Question 1</h1>
+                        <p>You fight to keep getting stronger</p>
+                        <select data-placeholder="" class="browser-default" id="q1">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 2</h1>
+                        <p>Nothing is better than a big feast after a huge battle.</p>
+                        <select data-placeholder="" class="browser-default" id="q2">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 3</h1>
+                        <p>Family is what motivates you.</p>
+                        <select data-placeholder="" class="browser-default" id="q3">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 4</h1>
+                        <p>You only fight to get Women</p>
+                        <select data-placeholder="" class="browser-default" id="q4">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 5</h1>
+                        <p>You like the challenge of fighting someone stronger than you are to push your own limits</p>
+                        <select data-placeholder="" class="browser-default" id="q5">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 6</h1>
+                        <p>The beach is the perfect place to live</p>
+                        <select data-placeholder="" class="browser-default" id="q6">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 7</h1>
+                        <p>You always try to see the good in everyone, even if they are rotten to the core</p>
+                        <select data-placeholder="" class="browser-default" id="q7">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 8</h1>
+                        <p>You need to always be prepared for a threat</p>
+                        <select data-placeholder="" class="browser-default" id="q8">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 9</h1>
+                        <p>Teaching others helps you pass your time</p>
+                        <select data-placeholder="" class="browser-default" id="q9">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <h1>Question 10</h1>
+                        <p>Your heritage and upbringing will always be your pride</p>
+                        <select data-placeholder="" class="browser-default" id="q10">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        </br>
+                        </br>
+                        <button type='submit' class='btn btn-primary' id='submit' data-toggle="modal" data-target=".bd-example-modal-lg">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='modal1' class='modal'>
+            <div class='modal-content'>
+                <h1>Your new Sparring Partner</h1>
+                <h1 id="fighterName"></h1>
+                <img id='fighterIMG' src='' width="250px">
+            </div>
+            <div class="modal-footer">
+                <a href="/home" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type='text/javascript'>
+            $('#submit').on('click', (event) => {
+                event.preventDefault();
+                let userInput = {
+                    name: $('#name').val().trim(),
+                    profileIMG: $('#photo').val().trim(),
+                    scores: [
+                        parseInt($('#q1').val().trim()),
+                        parseInt($('#q2').val().trim()),
+                        parseInt($('#q3').val().trim()),
+                        parseInt($('#q4').val().trim()),
+                        parseInt($('#q5').val().trim()),
+                        parseInt($('#q6').val().trim()),
+                        parseInt($('#q7').val().trim()),
+                        parseInt($('#q8').val().trim()),
+                        parseInt($('#q9').val().trim()),
+                        parseInt($('#q10').val().trim()),
+                    ]
+                }
+                console.log(userInput);
+                $.post('/api/friends', userInput)
+                    .done((data) => {
+                        $('#figherName').html(data.matchName);
+                        $('#figherIMG').attr('src', data.matchIMG);
+                        $('#modal1').modal('open');
+                    })
+            })
+
+        </script>
+</body>
+
+</html>
